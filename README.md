@@ -19,6 +19,7 @@ export DB_USER='nordicmicroalgae'
 export DB_PASS='<replacewithpassword>'
 ```
 - Activate virtual environment: source ~/.virtualenvs/nordicmicroalgae/bin/activate
+- Source environment variables: source ~/.virtualenvs/nordicmicroalgae/bin/postactivate
 - Change directory: cd nordicmicroalgae
 - Install dependencies: pip install -r requirements.txt
 - Launch development server: scripts/server
